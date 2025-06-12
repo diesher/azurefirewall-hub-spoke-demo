@@ -21,7 +21,7 @@ Remember to turn Windows Defender Firewall off manually on all VMs.
 ### Classic deployment of Firewall Standard
 Deploys Standard SKU firewall, with rules implemented on the firewall.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdiesher%2F%2F101-azurefirewall-hub-spoke-demo%2Fmaster%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdiesher%2Fazurefirewall-hub-spoke-demo%2Frefs%2Fheads%2Fmaster%2Fazuredeploy.json)
 
 ### Firewall Premium with Firewall Policy
 Deploys Premium SKU firewall with Firewall Policy.

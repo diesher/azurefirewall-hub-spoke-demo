@@ -104,7 +104,7 @@
             "name": "[variables('publicIPAddresses_azfw_hub_gw_pub_ip_name')]",
             "location": "[parameters('location')]",
             "sku": {
-                "name": "Basic"
+                "name": "Standard"
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",
@@ -132,7 +132,7 @@
             "name": "[variables('publicIPAddresses_azfw_on_prem_gw_pub_ip_name')]",
             "location": "[parameters('location_onprem')]",
             "sku": {
-                "name": "Basic"
+                "name": "Standard"
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",

@@ -108,7 +108,7 @@
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4                
             }
         },
@@ -136,7 +136,7 @@
             },
             "properties": {
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4
             }
         },
@@ -878,7 +878,7 @@
                     {
                         "name": "IpConf",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_hub_ip_name'))]"
                             },
@@ -905,7 +905,7 @@
                     {
                         "name": "IpConf",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_on_prem_ip_name'))]"
                             },
@@ -932,7 +932,7 @@
                     {
                         "name": "IpConf",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_spoke1_ip_name'))]"
                             },
@@ -959,7 +959,7 @@
                     {
                         "name": "IpConf",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_spoke2_ip_name'))]"
                             },
@@ -1035,7 +1035,7 @@
                     {
                         "name": "default",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_hub_gw_pub_ip_name'))]"
                             },
@@ -1081,7 +1081,7 @@
                     {
                         "name": "default",
                         "properties": {
-                            "privateIPAllocationMethod": "Dynamic",
+                            "privateIPAllocationMethod": "Static",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_azfw_on_prem_gw_pub_ip_name'))]"
                             },
